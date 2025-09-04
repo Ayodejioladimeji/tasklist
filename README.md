@@ -27,12 +27,12 @@ https://reactnative.dev/docs/environment-setup
 
 1. Clone the repository:
    ```bash
-   git clone https://your-repo-link.git
+   git clone https://github.com/Ayodejioladimeji/tasklist.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd my-tasks-app
+   cd tasklist
    ```
 
 3. Install the dependencies:
