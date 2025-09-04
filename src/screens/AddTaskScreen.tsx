@@ -1,7 +1,7 @@
 import 'react-native-get-random-values';
 
 import React, { useState } from 'react';
-import { View, TextInput, StyleSheet, Alert, Text, TouchableOpacity } from 'react-native';
+import { View, TextInput, StyleSheet, Alert, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { v4 as uuidv4 } from 'uuid';
 import DateTimePicker from '@react-native-community/datetimepicker';
@@ -121,7 +121,7 @@ const AddTaskScreen: React.FC = () => {
     });
 
     return (
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
             <Text style={styles.heading}>Create a New Task</Text>
 
             <TextInput
@@ -167,7 +167,7 @@ const AddTaskScreen: React.FC = () => {
                 <Text style={styles.tipText}>• Set due dates to stay on track with deadlines</Text>
                 <Text style={styles.tipText}>• You can edit tasks later from the task list</Text>
             </View>
-        </View>
+        </ScrollView>
     );
 };
 

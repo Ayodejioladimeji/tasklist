@@ -173,7 +173,7 @@ const TaskListScreen: React.FC = () => {
             padding: 10,
         },
         tabButton: {
-            flex: 1,
+            paddingHorizontal:15,
             paddingVertical: 12,
             alignItems: 'center'
         },
