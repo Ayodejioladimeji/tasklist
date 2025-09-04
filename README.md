@@ -2,6 +2,8 @@
 
 Welcome to TaskList! This is a simple, yet powerful, React Native application for managing your daily to-do lists. Keep track of your tasks, mark them as complete, and stay organized.
 
+click here to download the APK file [https://we.tl/t-jGrrGFbSV2](https://we.tl/t-jGrrGFbSV2)
+
 ## Features
 
 - **Add Tasks**: Quickly add new tasks with a title and an optional description and due date.
